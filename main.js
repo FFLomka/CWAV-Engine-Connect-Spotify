@@ -32,7 +32,7 @@ $.ajax({
 	data: {
 		'grant_type' : 'authorization_code',
 		'code' : getParameterByName('code'),
-		'redirect_uri' : 'https://example.com/callback'
+		'redirect_uri' : 'https://fflomka.github.io/CWAV-Engine-Connect-Spotify/'
 	},
 	success: function(data) {
 		document.getElementById('token').innerHTML = data.refresh_token
